@@ -12,3 +12,6 @@ ENV export RCUTILS_COLORIZED_OUTPUT 1
 RUN apt-get update
 RUN apt-get -y install libgl1-mesa-glx libgl1-mesa-dri
 RUN apt-get -y install net-tools
+
+# ----add by bushio
+RUN python3 -m pip install pygame
