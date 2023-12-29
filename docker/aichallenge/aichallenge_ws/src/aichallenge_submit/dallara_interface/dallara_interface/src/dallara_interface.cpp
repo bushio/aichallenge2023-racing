@@ -26,7 +26,7 @@ namespace dallara_interface {
   DallaraInterface::DallaraInterface() : Node("dallara_interface_node") {
     // Publishers
 
-    vehicle_inputs_pub_ = this->create_publisher<VehicleInputs>("/vehicle_inputs", 1);
+    vehicle_inputs_pub_ = this->create_publisher<VehicleInputs>("/vehicle_inputs_prepare", 1);
 
     velocity_report_pub_ = this->create_publisher<VelocityReport>("/vehicle/status/velocity_status", 1);
     steering_report_pub_ = this->create_publisher<SteeringReport>("/vehicle/status/steering_status", 1);
