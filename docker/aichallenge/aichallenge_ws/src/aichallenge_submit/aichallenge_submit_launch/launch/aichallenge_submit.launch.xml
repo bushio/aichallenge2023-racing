@@ -10,4 +10,9 @@
   <node pkg="goal_pose_setter" exec="goal_pose_setter_node" name="goal_pose_setter" output="screen">
     <param from="$(find-pkg-share goal_pose_setter)/config/default_goal_pose.param.yaml" />
   </node>
+
+  <node pkg="control_command_setter" exec="control_cmd_predictor" name="control_cmd_predictor" output="screen">
+  </node>
+
+
 </launch>
