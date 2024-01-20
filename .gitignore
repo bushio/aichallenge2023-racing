@@ -16,3 +16,13 @@ capture
 result.json
 
 !documentation/docfx_project/images/*.mp4
+
+
+*.patch
+docker/.vscode/
+docker/aichallenge/aichallenge_ws/src/awsim_joycon_teleop/
+ocker/aichallenge/build_specific_package.sh
+docker/evaluation/output/
+docker/aichallenge/AWSIM_Training/
+docker/aichallenge/Datasets/
+docker/aichallenge/build_specific_package.sh
